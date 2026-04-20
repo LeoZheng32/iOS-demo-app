@@ -12,8 +12,9 @@ struct ContentView: View {
         VStack {
             Image(systemName: "flag")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
+                .foregroundStyle(.blue)
             Text("Fun with Git")
+            Text("Hello World")
         }
         .padding()
     }
